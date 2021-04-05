@@ -1,43 +1,193 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# Content configuration version
+version: 2
+
+# Personal info
+name: Patrick van de Sluis
+title: Procesmanager
+email: patrick@vandesluis.com
+website: patrickvandesluis.com
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: patrickvandesluis
+github_username:  patrickvandesluis
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: patrickvandesluis
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+  # icon: fas fa-globe
+  # url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+google_analytics: "UA-111597809-1"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is Patrick and I am a procesmanager at Ebben Nurseries.
+
+  I am most skilled in: <mark>Project Management</mark>, <mark>SQL</mark>, <mark>React</mark> and <mark>Python</mark>
+
+content:
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       title: Super awesome project
+  #       link: github.com/sproogen
+  #       # link_text: Project Website
+  #       additional_links:
+  #         - title:  sproogen/modern-resume-theme
+  #           icon: fab fa-github
+  #           url: github.com/sproogen/modern-resume-theme
+  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #         #   icon: fab fa-github
+  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #       quote: >
+  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  #       description: | # this will include new lines to allow paragraphs
+  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Ebben Nurseries
+        link: ebben.nl
+        # link_text: boringcompany.com
+        sub_title: Procesmanager
+        caption: October 2017 - Current
+        quote: >
+          Data is not information, Information is not knowledge, Knowledge is not understanding, Understanding is not wisdom
+        description: | # this will include new lines to allow paragraphs
+              Jun 2019 - Current Procesmanager
+
+              Previous positions:
+
+              Dec 2018 - Jun 2019 | Interim Logistics Manager BeNeLux
+              Oct 2017 - Jun 2019 | Business Analist
+      - layout: left
+        title: Entrepreneur
+        # link: ebben.nl
+        # link_text: boringcompany.com
+        # sub_title: 
+        caption: September 2015 - October 2017
+        # quote: >
+          # .
+        description: | # this will include new lines to allow paragraphs
+              Trading various ingame and cryto currencies. Maintaining PHP Laravel Framework for managing miners.
+      - layout: left
+        title: Vlastuin Group
+        link: vlastuin.nl
+        # link_text: boringcompany.com
+        sub_title: 
+        caption: September 2013 - October 2015
+        # quote: >
+          # .
+        description: | # this will include new lines to allow paragraphs
+              Positions:
+
+              Jan 2015 - Oct 2015 | BI Specialist
+              Jun 2014 - Sep 2014 | Projectmember ERP integration
+              Sep 2013 - Jun 2014 | Trainee ERP integration
+      - layout: left
+        title: Metaglas
+        link: metaglas.nl
+        # link_text: boringcompany.com
+        sub_title: 
+        caption: April 2012 - June 2013
+        # quote: >
+          # .
+        description: | # this will include new lines to allow paragraphs
+              Writing procesmanual for manufacturingprocess. Reduced inventorycost by implementing ABC analysis.
+
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Utrecht University of Applied Science
+        caption: 2011 - 2018
+        sub_title: BBA Logistics and Economics
+        # quote: >
+        #   .
+        description: | # this will include new lines to allow paragraphs
+          I wrote my thesis on supply and demand forecasting, with a minor in People Management.
+          
+          Three year sabbatical, pursuing other projects.
+      - layout: left
+        title: Ichthus College - Veenendaal
+        caption: 2005 - 2011
+        sub_title: Economics & Society
+        # quote: >
+        #   .
+        # description: | # this will include new lines to allow paragraphs
+        #   I wrote my thesis on supply and demand forecasting, with a minor in People Management.
+          
+        #   Three year sabbatical, pursuing other projects.
+
+  - title: Certifications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Python for Data Science and Machine Learning Bootcamp
+        caption: 2018
+        sub_title: Udemy
+        # quote: >
+        #   .
+        # description: | # this will include new lines to allow paragraphs
+        #   I wrote my thesis on supply and demand forecasting, with a minor in People Management.
+      - layout: left
+        title: TALIS FlexTools
+        caption: 2019
+        sub_title: TANS
+
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  #     - Rock climbing
+  #     - Gaming
+  #     - Knitting
+  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+  #     Look at this cool image  
+  #     ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
 
 # Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+remote_theme: sproogen/resume-theme
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
