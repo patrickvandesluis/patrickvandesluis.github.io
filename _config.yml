@@ -158,7 +158,6 @@ content:
   - title: Additional skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      **Skill**
 
       ***** - SQL (Oracle, Mysql, Postgress, Sybase, Interbase)
 
