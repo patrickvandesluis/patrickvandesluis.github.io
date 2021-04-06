@@ -60,13 +60,14 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Ebben Nurseries
+        title: Process Manager
         link: ebben.nl
         # link_text: 
-        sub_title: Procesmanager
+        sub_title: Ebben Nurseries
         caption: October 2017 - Current
         quote: >
-          Data is not information, Information is not knowledge, Knowledge is not understanding, Understanding is not wisdom
+          Data is not information, Information is not knowledge, Knowledge is not understanding, Understanding is not wisdom.
+          - Clifford Stoll
         description: | # this will include new lines to allow paragraphs
               #### Projects include:
               - Digitizing the supply chain
@@ -90,9 +91,9 @@ content:
         description: | # this will include new lines to allow paragraphs
               Trading various ingame and cryto currencies. Maintaining PHP Laravel Framework for managing miners.
       - layout: left
-        title: Vlastuin Group
+        title: ERP Implementation
         link: vlastuin.nl
-        sub_title: 
+        sub_title: Vlastuin Group
         caption: September 2013 - October 2015
         # quote: >
           # .
@@ -105,9 +106,9 @@ content:
 
               **Trainee ERP integration** - Sep 2013 - Jun 2014
       - layout: left
-        title: Metaglas
+        title: Trainee
         link: metaglas.nl
-        sub_title: 
+        sub_title: Metaglas
         caption: April 2012 - June 2013
         # quote: >
           # .
