@@ -74,6 +74,7 @@ content:
               - Process automation
               - Advanced BI reporting
               - PoC Development
+              - Member of Tenderteam
 
 
               #### Positions:
@@ -113,7 +114,7 @@ content:
         # quote: >
           # .
         description: | # this will include new lines to allow paragraphs
-              Writing a proces manual for manufacturing processes. Reduced inventory cost by implementing ABC analysis.
+              Writing a manual for manufacturing processes. Reduced inventory cost by implementing ABC analysis.
 
 
   - title: Education # Title for the section
@@ -162,7 +163,9 @@ content:
 
       ***** - SQL (Oracle, Mysql, Postgres, Sybase, Interbase)
 
-      ***\* - React
+      ***\* - Python (Flask, Django, Pandas)
+      
+      ***\* - Javascript (React, jQuery, Redux)
 
       ***\* - Team player
 
@@ -173,8 +176,6 @@ content:
       *** - Project Managemnt
       
       *** - SAP Crystal Reports & Fast Reports
-
-      *** - Flask
 
       *** - Docker
 
