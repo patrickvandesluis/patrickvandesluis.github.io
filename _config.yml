@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Patrick van de Sluis
-title: Process Manager
+title: Site Project Manager
 email: patrick@vandesluis.com
 website: patrickvandesluis.nl
 
@@ -48,23 +48,32 @@ google_analytics: "UA-111597809-1"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Patrick and I am a Process Manager at Ebben Nurseries. Here I work with my colleagues to improve the business processes and the customer experience for multiple companies related to the Ebbenhout Holding.
+  Hi, my name is Patrick and I am a Project Manager at DHL Supply Chain. Here I work with my colleagues to improve the warehouse processes and preformance for multiple customers at the Tiel 1 site.
   I characterize myself as a driven problem solver who works best in small teams, where I have no issue taking the lead.
 
   In my free time I like to hack away at [hackthebox.eu](https://hackthebox.eu), building my [Home Assistant](https://www.home-assistant.io/) setup or go swimming.
 
-  I am most skilled in: <mark>Lean Project Management</mark>, <mark>SQL</mark>, <mark>Python</mark> and <mark>React</mark>.
+  I am most skilled in: <mark>Lean Project Management</mark>, <mark>SQL</mark> and <mark>Python</mark>.
 
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Site Project Manager & OMS Champion
+        link: https://www.dhl.com/nl-en/home/our-divisions/supply-chain.html
+        # link_text: 
+        sub_title: DHL Supply Chain - Tiel 1
+        caption: December 2021 - Current
+        description: | # this will include new lines to allow paragraphs
+              As the project manager for this site, I am responsible for all activities related to continues improvement and other overhauls of the warehouse.
+              In my role as OMS Champion, I aid and train all employees of the site in Operations Management System related activites. OMS is the way of working for DHL Supply Chain. It is a combination between Lean Management, Advanced Analytics and leadership best practices.
+      - layout: left
         title: Process Manager
         link: ebben.nl
         # link_text: 
         sub_title: Ebben Nurseries
-        caption: October 2017 - Current
+        caption: October 2017 - December 2021
         quote: >
           Data is not information, Information is not knowledge, Knowledge is not understanding, Understanding is not wisdom.
           - Clifford Stoll
